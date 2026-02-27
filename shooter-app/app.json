@@ -1,0 +1,19 @@
+{
+  "expo": {
+    "name": "Space Shooter",
+    "slug": "shooter-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "backgroundColor": "#04080F"
+    },
+    "android": {
+      "package": "com.example.shooterapp"
+    },
+    "ios": {
+      "bundleIdentifier": "com.example.shooterapp",
+      "supportsTablet": false
+    }
+  }
+}
