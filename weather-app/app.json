@@ -1,0 +1,24 @@
+{
+  "expo": {
+    "name": "天気アプリ",
+    "slug": "weather-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "backgroundColor": "#4682B4"
+    },
+    "android": {
+      "package": "com.example.weatherapp",
+      "permissions": ["ACCESS_FINE_LOCATION", "ACCESS_COARSE_LOCATION"]
+    },
+    "ios": {
+      "bundleIdentifier": "com.example.weatherapp",
+      "supportsTablet": false,
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "現在地の天気を表示するために位置情報を使用します。"
+      }
+    },
+    "plugins": ["expo-location"]
+  }
+}

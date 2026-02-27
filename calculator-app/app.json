@@ -1,0 +1,19 @@
+{
+  "expo": {
+    "name": "電卓",
+    "slug": "calculator-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "backgroundColor": "#1C1C1E"
+    },
+    "android": {
+      "package": "com.example.calculatorapp"
+    },
+    "ios": {
+      "bundleIdentifier": "com.example.calculatorapp",
+      "supportsTablet": false
+    }
+  }
+}
