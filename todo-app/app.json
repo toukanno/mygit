@@ -1,0 +1,23 @@
+{
+  "expo": {
+    "name": "Todoリスト",
+    "slug": "todo-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "backgroundColor": "#6C63FF"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#6C63FF"
+      },
+      "package": "com.example.todoapp"
+    },
+    "ios": {
+      "bundleIdentifier": "com.example.todoapp",
+      "supportsTablet": false
+    }
+  }
+}
